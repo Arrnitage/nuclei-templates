@@ -17,7 +17,7 @@ jobs:
 
       - name: Add upstream
         run: |
-          git remote add upstream https://github.com/原作者/project.git
+          git remote add upstream https://github.com/projectdiscovery/nuclei-templates.git
           git fetch upstream
 
       - name: Merge upstream
